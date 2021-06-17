@@ -1,0 +1,88 @@
+body {
+  background-color: #f0f3f78f;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #0e0e27;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+}
+section {
+  border: 60px solid #a68debec;
+  margin: 85px;
+}
+.head-title {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+.head-title h2 {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: .5rem;
+}
+.head-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30em;
+}
+.head-list li {
+  list-style: none;
+}
+.head-list a {
+  text-decoration: none;
+  color: #0e0e27;
+  font-size: 13px;
+  font-weight: 500;
+}
+.btn {
+  box-sizing: border-box;
+  border: none;
+  border: 1px;
+  background: #ebe6e6e0;
+  text-align: center;
+  padding: 8px 20px;
+}
+.btn a {
+  font-weight: 600;
+  color: #a34cdd;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.main-B {
+  filter: drop-shadow(380px 1px 60px #b2acb862);
+}
+.main-A {
+  width: 50%;
+  text-align: left;
+}
+.main-A h2 {
+  padding-top: 3rem;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.main-A p {
+  width: 50%;
+  padding-bottom: 2rem;
+  font-weight: 100;
+  font-size: 16px;
+}
+.btn1 {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background: #efeaf5c4;
+  text-align: center;
+  padding: 8px 38px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #110d1b;
+}
